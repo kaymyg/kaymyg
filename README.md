@@ -22,6 +22,18 @@ Two specs so far, each with a reference implementation and a conformance suite:
 | [attest](https://github.com/kaymyg/attest) | Design stage. Signed attestation of AMES ledger state, extending RFC 9421 HTTP Message Signatures. Threat model first, code later. |
 | [lean-agent-governance](https://github.com/kaymyg/lean-agent-governance) | Pre-runtime prompt-injection scanning and PR blast-radius limits for coding agents. |
 | [multi-agent-mcl](https://github.com/kaymyg/multi-agent-mcl) | Meta-cognitive calibration layer — risk scoring and attribution across cooperating agents. |
+| [hydra-cage](https://github.com/kaymyg/hydra-cage) | Five-plane containment architecture — independent roots of trust per plane, eight-stage breach-to-rebuild transition, ten-attack adversary suite (10/10 blocked). |
+
+### Prototypes and reference implementations
+
+Built out from a spec or draft I supplied as a starting point, not
+independent research in the same sense as the work above — but real,
+tested, honestly-documented code, not vaporware.
+
+| | |
+|---|---|
+| [ubda-engine](https://github.com/kaymyg/ubda-engine) | Capability-based data access prototype — six-state trust ladder, signed short-lived capabilities, hardware-authority/software-broker separation. Mock authorizer, documented as such. |
+| [caio](https://github.com/kaymyg/caio) | Synthesis prototype pulling capability leasing, graduated containment, and multi-perspective divergence detection into one request path. 100% line coverage on the core module. |
 
 ### Systems and protocols
 
