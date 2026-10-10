@@ -43,6 +43,15 @@ tested, honestly-documented code, not vaporware.
 | [ethan](https://github.com/kaymyg/ethan) | AEP-1: an immutable USDC treasury protocol on Base. No owner, no upgrade path, no admin key over funds. Anyone may propose; the contracts decide. |
 | [CIMF](https://github.com/kaymyg/CIMF) | Cosmological Information Management Framework, with an accompanying paper. |
 
+### Experiments
+
+| | |
+|---|---|
+| [uma-aif](https://github.com/kaymyg/uma-aif) | Sampling-based internal-state auditing for transformer activations — cross-layer mutual information and local sensitivity against a benign baseline. A research instrument, not a product. |
+| [sec-experiment](https://github.com/kaymyg/sec-experiment) | Measurement harness for how much of a talking-head video's bitrate decoder-side priors can explain. Stage 0 implemented; Stages 1–2 scaffolded. |
+| [nomad-poet](https://github.com/kaymyg/nomad-poet) | A haiku that lives on Base and migrates to a fresh EIP-1167 clone every ~6 hours, kept alive by a GitHub Actions keeper. Collected works in `POEMS.md`. |
+| [lifeform](https://github.com/kaymyg/lifeform) | Conway's Game of Life in a single HTML file that stores its grid in its own source and reproduces by writing its offspring. [Live demo](https://kaymyg.github.io/lifeform/). |
+
 ### How I work
 
 Every repo builds and tests from a clean checkout in CI. Fixes ship with a test that would have failed before them. Where a limitation is a calibration decision rather than a bug, it gets a test that documents the ceiling instead of a quiet change to the threshold.
